@@ -1,0 +1,26 @@
+Discuss about html elements
+text elements
+    - h1,h2,..h6
+    -anchor element and syntax 
+    -p element
+    -em, strong, u, i,
+    -image
+    -li
+    -ol
+    -ul
+    -<br>
+    -footer elemnet
+    -&copy;
+    -input 
+        type ->text,file,checkbox,radio,date, color,time, password,email
+    -label
+    -marque
+        behaviour-scroll,slide,alternate
+        direction
+        scroll AMOUNT
+    - COMMENTING IN HTML
+    -BUTTON
+    
+        
+
+
