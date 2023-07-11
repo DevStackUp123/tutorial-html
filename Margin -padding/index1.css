@@ -1,0 +1,49 @@
+.box1{
+    background-color: aqua;
+    padding: 20px;
+}
+.box2{
+    background-color: rgb(26, 77, 173);
+    padding: 30px;
+}
+.box3{
+    background-color: coral;
+    padding: 50px;
+}
+
+/* auto wrk chyynmenkil width kodukknm */
+
+/* auto to move right to left */
+/* .box1{
+    margin: 20px auto 0 0; 
+    width: 200px;
+} */
+
+/* auto move to left to right */
+/* .box1{
+    margin: 20px 0 0 auto;
+    width: 200px;
+} */
+ 
+/* left right auto div move to center */
+/* .box1{
+    margin: 20px auto 0 auto;
+    width: 200px;
+} */
+
+/* top bottom koduthal center vrilla */
+/* .box1{
+    margin: auto 20px;
+    width: 200px;
+} */
+
+ /* div il text align center koduthal div center varilla but athile text center vrum */
+.box1{
+    text-align: center;
+    margin: 20px auto;
+    width: 200px;
+}
+
+h1{
+    text-align:center;
+}

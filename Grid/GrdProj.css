@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1000px;
+    height: 100vh;
+    margin:  50px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.2fr; 
+    grid-template-rows: 1fr 4fr 1.2fr 1.2fr;
+
+    grid-template-areas: "log log header"
+                          "main main  img"
+                          "quotes quotes img"
+                          "btn1 btn2 img";
+}
+
+.log{
+    
+    grid-area: log;
+    background-color:rgb(148, 210, 148);
+}
+.log h1{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(31, 141, 31);
+}
+
+
+.main{
+    grid-area: main;
+    background-color: white;
+}
+.main h1{
+    max-width:300px ;
+    margin-left: 40px;  
+}
+.main p{
+    max-width: 500px;
+    margin-top: 30px;
+    margin-left: 40px; 
+    line-height: 20px; 
+}
+
+
+.quotes{
+  
+    grid-area: quotes;
+    background-color:rgb(210, 234, 210);
+}
+.quotes h2{
+    text-align: center;
+    margin-top: 40px;
+    line-height: 33px;
+}
+
+.btn1 {
+    grid-area: btn1;
+    background-color: rgb(23, 102, 23);
+   
+}
+
+.btn2{
+    grid-area: btn2;
+    background-color: rgb(37, 227, 37);
+   
+}
+
+.btn a{
+   
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+/* header hover  */
+header ul li:hover a{
+    color:green;
+}
+
+ /* button hover */
+.btn:hover{
+    background-color: gray;
+}
+
+
+header{
+    grid-area: header; 
+    background-color: white;
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: end;
+    transition: color; 
+  
+    
+}
+
+
+ul{
+    list-style: none;
+    color: black;
+    display: flex;
+    gap: 2rem;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.img{
+    grid-area: img;
+    background-color: rgb(117, 203, 117);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Media Query  */
+@media(max-width:767px){
+    .img{
+        display: none;
+    }
+}

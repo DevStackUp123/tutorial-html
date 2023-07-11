@@ -1,0 +1,21 @@
+introduction
+=> Margin
+Margins are used to create space around elements, outside of any defined borders.
+
+margin properties:
+.margin:	    A shorthand property for setting all the margin properties in one declaration
+.margin-bottom:	Sets the bottom margin of an element
+.margin-left:	Sets the left margin of an element
+.margin-right:	Sets the right margin of an element
+.margin-top:	Sets the top margin of an element
+
+=>padding
+Padding is used to create space around an element's content, inside of any defined borders.
+
+padding properties:
+.padding:	        A shorthand property for setting all the padding properties in one declaration
+.padding-bottom:	Sets the bottom padding of an element
+.padding-left:	    Sets the left padding of an element
+.padding-right:	    Sets the right padding of an element
+.padding-top:	    Sets the top padding of an element
+

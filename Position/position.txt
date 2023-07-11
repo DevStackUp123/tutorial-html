@@ -1,0 +1,12 @@
+introduction
+The position property specifies the type of positioning method used for an element
+
+position properties=>
+.position: relative:    An element with position: relative; is positioned relative to its normal position.
+.position: absolute:    is positioned relative to the nearest positioned ancestor.
+
+=>Z-index
+The z-index property specifies the stack order of an element.
+When elements are positioned, they can overlap other elements.
+
+Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display: flex elements).

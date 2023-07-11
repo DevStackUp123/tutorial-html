@@ -1,0 +1,19 @@
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: darkorchid;
+}
+.box3{
+    background-color: darkslateblue;
+}
+
+/* auto fill ayii margin padding vrim h1 , div okkke ath mattan vendi 
+h1 nte margin padding 0 kodukknm
+div margin 0 padding 0 kodukknm
+*/
+/* simple way  */
+*{
+    margin: 0;
+    padding: 0;
+}
