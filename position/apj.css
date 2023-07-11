@@ -1,0 +1,119 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    font-size: 30px;
+}
+.testimo
+{
+    width: auto;
+    height: auto;
+}
+.parent-box
+{   
+    width: 800px;
+    margin: 100px auto;
+    background-color: #5e7b72;
+    padding: 32px;
+    padding-left: 86px;
+    padding-right: 48px;
+    padding: 32px 48px 32px 86px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 86px;
+  }
+   
+.qouts
+{
+    /* margin-right: 500px; */
+    /* margin-left: 250px; */
+    width: 300px;
+    height: 108px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 32px;
+    color: rgb(179, 192, 192);
+}
+.writter
+{
+    font-size: 20px;
+    margin-bottom: 50px;  
+    color: rgb(194, 187, 187);
+}
+.photo
+{  
+    height: 200px;
+    border-radius: 8px;
+    transform: scale(1.5);
+    box-shadow: rgb(70, 67, 67)
+}
+.btn {
+    background-color: #fff;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn--left {
+    /* In relation to PARENTE ELEMENT */
+    left: 4.5%;
+    top: 40%;
+
+    /* In relation to ELEMENT ITSELF */
+    transform: translate(-50%, -50%);
+  }
+
+  .btn--right {
+    right: 4.5%;
+    top: 40%;
+
+    transform: translate(50%, -50%);
+  }
+   .arrow
+   {
+    margin-bottom: 8000px;
+   }
+  .btn-icon {
+    height: 24px;
+    width: 24px;
+    stroke: #087f5b;
+  }
+  .dots {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    /* bottom: 50; */
+    transform: translate(-50%, 32px);
+
+    display: flex;
+    gap: 12px;
+  }
+
+  .dot {
+    height: 12px;
+    width: 12px;
+    background-color: #fff;
+    border: 2px solid #087f5b;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .dot--fill {
+    background-color: #25a7be;
+  }
