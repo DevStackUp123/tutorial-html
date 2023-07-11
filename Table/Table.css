@@ -1,0 +1,39 @@
+body{
+    background-color: lightblue;
+}
+table{
+    margin: 50px 400px;
+    width: 500px;
+    height: 500px;
+    border-collapse:separate;
+}
+.center{
+    text-align: center;
+}
+table,tr, td{
+    border: 1px solid black;
+}
+.top{
+    background-color: aqua;
+    font-weight: bold;
+}
+.eng{
+    background-color: burlywood;
+}
+.total{
+    background-color: bisque;
+    font-weight: bold;
+}
+.bg{
+    background-color: khaki;
+}
+.aim{
+    color: darkblue;
+    font-family: cursive;
+    background-color: bisque;
+}
+.seven{
+    color: darkred;
+    font-weight: bold;
+    background-color: bisque;
+}
