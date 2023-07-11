@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* row&column il flex use chyynm */
+/* properties: justifycontent, aligin item ,flex wrap ,aligin-content,flex flow*/
+/* .parent{
+    height: 150vh;
+    border: 20px solid gray;
+    display: flex;
+    /* flex-direction: default row ayirikkum; */
+    /* flex-direction: column; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* align-items flex-start default */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+
+    /* flex-wrap wrap  vrubol space mattan vendi align content kodukknm */
+    /* flexwrap mattiyal align-content work chyilla */
+    /* align-content: flex-start; */
+    /* align-content: center; */
+   /* align-content: flex-end; */
+   /* align-content: space-around; */
+
+   /* flex-direction, flex-wrap merge chyyn ==>flex-flow */
+   /* flex-flow: row wrap;
+   align-content:flex-start ;
+}  */
+
+
+.parent{
+    height: 150vh;
+    border: 20px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: flex-start; */
+}
+
+/* //child flex using  */
+/* order kodukkn shaffling */
+/* flex grow=> width koddkn */
+/* flexbasis=>width pakaram */
+/* alin self=> parent il align content kidannal wrok chyill */
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    /* order: 4; */
+    /* flex-grow: 1; */
+    /* flex-basis: 200px; */
+    flex: 1 1 300px;
+    align-self: flex-start;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    /* order: 3; */
+    /* flex-grow: 2; */
+    align-self: center;
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color:blueviolet;
+    /* order: 2; */
+}
+.div4{
+    width: 200px;
+    height: 200px;
+    background-color:brown;
+    /* order: 1; */
+}

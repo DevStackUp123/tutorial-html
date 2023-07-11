@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.box1{
+    background-color: darkmagenta;
+    margin: 20px 0 20px;
+    padding: 20px;
+}
+.box2{
+    background-color: dodgerblue;
+    /* padding: 30px; */
+    width: 100px;
+    height: 150px;
+    /* box-sizing: border-box; */
+    
+}
+.box3{
+    background-color: aqua;
+    /* padding: 50px; */
+    width: 100px;
+    height: 150px;
+    /* box-sizing: border-box; */
+}
+
+/* box sizing
+ two value ond default ayitt  content box annn */
+
+ .box1{
+    background-color: darkmagenta;
+    margin: 20px 0 20px;
+    /* padding: 20px; */
+    width: 100px;
+    height: 150px;
+    /* box-sizing: border-box; */
+}
+
+/* padding koduthl width height kudum
+so athkond box sizing border box akkun 
+nmml koduth height width vran vendi */

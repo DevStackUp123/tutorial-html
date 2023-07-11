@@ -1,0 +1,9 @@
+introduction
+The flex property sets the flexible length on flexible items.
+Flex property
+. Disply-Flex:	Displays an element as a block-level flex container
+.Justify-content: values are,flex start, flex end, space around, space between
+.Flex-direction:The flex-direction property specifies the direction of the flexible items.
+.align-items:
+.flex-wrap:The flex-wrap property specifies whether the flexible items should wrap or not.
+.align-content:
