@@ -1,0 +1,43 @@
+h1
+{
+   color:blue;
+   text-transform:capitalize;
+   font-family: 'Times New Roman', Times, serif;
+   /* border:double */
+}
+h2
+{
+   color: rgb(237, 10, 161);
+   border: dotted;
+   border-radius: 12ex;
+   border-color: black;
+   width: 400px;
+   /* border-style: groove; */
+   /* box-sizing: border-box; */
+}
+.scroll:after{
+   /* cursor: pointer; */
+   background-color: bisque;
+
+}
+.ul
+{
+   color: blue;
+   background-color: blueviolet;
+   width: 100px;
+}
+.ol{
+   /* list-style:circle; */
+   color: aquamarine;
+   background-color: black;
+   width: 100px;
+   /* display:flex; */
+}
+   .li
+   {
+      display: flex;
+
+      /* flex: 0 1 150px; */
+      /* display: block; */
+   }
+  
