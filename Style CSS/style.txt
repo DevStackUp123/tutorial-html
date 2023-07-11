@@ -1,0 +1,30 @@
+3 type of css
+ => Inline css
+ =>Internal css
+ =>External css
+
+ 
+define css property
+1. Font-Family
+2. Font-Size
+3.Font-Weight
+4.text-align => center ,left ,right
+5. letter spaceing
+6. color
+
+7.background-image
+8.background-position => left ,right, top
+9.background-sizen=> small, large
+10.background-color
+
+11. border=> border-width, border-color, border-top, border-bottom, border-left, border-right, border-radius
+
+12. width, height
+
+13.margin=> margin-left, margin-top, margin-bottom, margin-right
+
+14. padding
+
+15. visibility
+16.overflow
+

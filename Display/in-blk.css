@@ -1,0 +1,25 @@
+div{
+    background-color: aqua;
+}
+h1{
+    background-color: chocolate;
+}
+p{
+    background-color: cornflowerblue;
+}
+span{
+    background-color: darkmagenta;
+}
+a{
+    background-color: darkolivegreen;
+}
+small{
+    background-color: deeppink;
+}
+.div1 h2{
+    color: darkblue;
+    background-color:bisque;
+}
+.div1 span{
+    background-color: cornflowerblue;
+}
